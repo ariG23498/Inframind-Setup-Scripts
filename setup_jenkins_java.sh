@@ -5,5 +5,4 @@ sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.l
 apt update
 apt install jenkins
 
-echo "This is the Initial Admin Password"
-cat /var/lib/jenkins/secrets/initialAdminPassword
+echo "/var/lib/jenkins/secrets/initialAdminPassword"
